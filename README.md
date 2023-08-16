@@ -1,6 +1,6 @@
 # Housing-in-Colombia
 
-![](colombia.jpg)
+![](ricardo-gomez-angel-GcHar4P8V_Q-unsplash.jpg)
 
 ## Intrduction
 Our objective for this project was to develop a machine learning model that accurately predicts house prices under $400,000 in Bogotá, Colombia. We utilized Linear Regression and Ridge Regression models to achieve this and evaluated our results using the Mean Absolute Error (MAE) metric.
