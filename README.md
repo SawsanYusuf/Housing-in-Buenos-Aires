@@ -17,6 +17,6 @@ We took several steps to optimize our dataset. We clipped the outliers and split
 
 Our focus was on studying the correlation between the price of a house and three specific characteristics.
 
-### House Size
-It is clear that size and price are closely linked, as demonstrated in this plot:
+### House Area
+It is clear that area and price are closely linked, as demonstrated in this plot:
 ![](area_price.png)
