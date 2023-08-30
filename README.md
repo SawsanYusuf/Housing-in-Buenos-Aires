@@ -49,12 +49,12 @@ Linear Regression with Area | 30633.42 | 0.496
 Linear Regression with Location | 43531.29 | 0.121
 Linear Regression with Neighborhood | 812368101112651.6 | -2.34754e+23
 Ridge with Neighborhood | 40031.31 | 0.233
-Ridge with Everything | 86347.16 | 84203.94
+Ridge with Everything | 24150.49 | 0.685
 
-Our optimal model incorporates both the area feature and linear regression algorithm.
+The best model is the model that had the lowest MAE and the highest R-Squared.
 
 ## Conclusion
-Our goal was to create a regression model capable of predicting house prices in Bogata, the capital of Colombia. We successfully worked through the project to achieve this objective.
+Our goal was to create a regression model capable of predicting apartment prices in Buenos Aires, the capital of Argentina. We successfully worked through the project to achieve this objective.
 
 In a next work session, we can boost our performance and achieve better results by integrating more regression algorithms and fine-tuning their hyperparameters.
 
