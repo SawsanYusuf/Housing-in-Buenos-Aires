@@ -15,21 +15,21 @@ We took several steps to optimize our dataset. We clipped the outliers and split
 
 ## Exploratory Data Analysis
 
-Our focus was on studying the correlation between the price of a house and three specific characteristics.
+Our focus was on studying the correlation between the price of an apartment and three specific characteristics.
 
 ### Apartment Area in m2
 It is clear that area and price are closely linked, as demonstrated in this plot:
-![](area_price.png)
+![](area_vs_price.png)
 
 ### Location in Terms of Latitude and Longitude
 To analyze this correlation, a map chart has been created:
-![](location_price.png)
+![](location_vs_price.png)
 
 Based on the map, it is clear that heading north will result in a significant increase in projected prices. On the other hand, traveling westward will lead to a noticeable decrease in predicted prices.
 
 ### Location in Terms of Neighborhood
 This visual representation depicts how the location of a house within a neighborhood can influence its price:
-![](neighborhood_price.png)
+![](neighborhood_vs_price.png)
 
 ## Modeling
 Our project involved the construction of various models to achieve our goals. We began with the baseline model and then proceeded to implement several other models, including linear regression with surface_covered_in_m2 as a feature, linear regression with latitude and longitude as features, linear regression with "neighborhood" as a feature, and a Ridge model that incorporated all previous features. 
