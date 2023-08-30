@@ -1,6 +1,6 @@
 # Housing-in-Buenos-Aires 
 
-![](flavia-carpio-P3PFi8THbUs-unsplash.jpg)
+![](buenos_airs.jpg)
 ---
 ## Intrduction
 Our objective for this project was to develop a machine learning model that accurately predicts apartment prices under $400,000 in Buenos Aires, Argentina. We utilized Linear Regression and Ridge Regression models to achieve this and evaluated our results using the Mean Absolute Error (MAE) and R-squared metrics.
