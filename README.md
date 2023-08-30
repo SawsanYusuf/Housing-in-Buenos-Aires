@@ -48,7 +48,7 @@ Baseline | 44393.952 | --
 Linear Regression with Area | 30633.42 | 0.496
 Linear Regression with Location | 43531.29 | 0.121
 Linear Regression with Neighborhood | 812368101112651.6 | -2.34754e+23
-Ridge with Neighborhood | 86347.16 | 84117.51
+Ridge with Neighborhood | 40031.31 | 0.233
 Ridge with Everything | 86347.16 | 84203.94
 
 Our optimal model incorporates both the area feature and linear regression algorithm.
