@@ -1,9 +1,9 @@
-# Housing-in-Colombia
+# Housing-in-Buenos-Aires 
 
 ![](flavia-carpio-P3PFi8THbUs-unsplash.jpg)
 ---
 ## Intrduction
-Our objective for this project was to develop a machine learning model that accurately predicts house prices under $400,000 in Bogotá, Colombia. We utilized Linear Regression and Ridge Regression models to achieve this and evaluated our results using the Mean Absolute Error (MAE) metric.
+Our objective for this project was to develop a machine learning model that accurately predicts apartment prices under $400,000 in Buenos Aires, Argentina. We utilized Linear Regression and Ridge Regression models to achieve this and evaluated our results using the Mean Absolute Error (MAE) and R-squared metrics.
 
 ## Dataset and Data Preprocessing 
 
@@ -17,7 +17,7 @@ We took several steps to optimize our dataset. We clipped the outliers and split
 
 Our focus was on studying the correlation between the price of a house and three specific characteristics.
 
-### House Area
+### Apartment Area in m2
 It is clear that area and price are closely linked, as demonstrated in this plot:
 ![](area_price.png)
 
@@ -42,11 +42,11 @@ To enhance our predictors and handle missing data and categorical attributes, we
 To ensure our model's accuracy, we underwent a three-step process. First, we trained it with training data. Next, we tested it on the same training data. Finally, we evaluated its ability to generalize by testing it on separate test data. 
 
 ## Results
-Model | Mean Absolute Error | R squared
+Model | Testing Mean Absolute Error | Testing R-squared
 ------|--|--------------------------------
 Baseline | 44 | --
-Linear Regression with Area | 52093.88 | 546
-Linear Regression with Location | 72274.36 | 69170.32
+Linear Regression with Area | 30633.42 | 0.496
+Linear Regression with Location | 43531.29 | 0.121
 Linear Regression with Neighborhood | 86347.16 | 84324.66
 Ridge with Neighborhood | 86347.16 | 84117.51
 Ridge with Everything | 86347.16 | 84203.94
