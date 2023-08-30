@@ -42,9 +42,10 @@ To enhance our predictors and handle missing data and categorical attributes, we
 To ensure our model's accuracy, we underwent a three-step process. First, we trained it with training data. Next, we tested it on the same training data. Finally, we evaluated its ability to generalize by testing it on separate test data. 
 
 ## Results
-Model | Baseline |Mean Absolute Error
+Model | Mean Absolute Error | R squared
 ------|--|--------------------------------
-Linear Regression with Area | 72274.36 | 52093.88
+Baseline | 44 | --
+Linear Regression with Area | 52093.88 | 546
 Linear Regression with Location | 72274.36 | 69170.32
 Linear Regression with Neighborhood | 86347.16 | 84324.66
 Ridge with Neighborhood | 86347.16 | 84117.51
